@@ -14,7 +14,7 @@ app.post('/getItem', function(req, res) {
 
 
 app.post('/getItems', function(req, res) {
-    console.log(req.query.id)
+    console.log(req.query);
     soap.gets(req.query.id, function(data) {
         res.json(data.Items);
     });
