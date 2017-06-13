@@ -1,0 +1,11 @@
+{
+    "name": "thaipostapi",
+    "version": "0.0.1",
+    "description": "BigDataProject",
+    "main": "index.js",
+    "dependencies": {
+        "body-parser": "^1.17.2",
+        "express": "^4.15.3",
+        "thailand-post": "^2.1.0"
+    }
+}
